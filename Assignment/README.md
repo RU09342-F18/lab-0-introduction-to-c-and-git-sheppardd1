@@ -1,7 +1,7 @@
 # Math Function
 * Created by: David Sheppard
-* Created: 8 September 2018
-* Last Modified: 9 September 2018 (addressed division by 0)
+* Date: 8 September 2018
+* Last Modified: 9 September 2018 (addressed division by 0 and added README)
 * Purpose: defines a math funciton with 2 integer inputs that can handle the operations listed below.
 * Function Prototype: int math(int num1, int num2, char operation);
 * Use: The function returns an integer result of an operation performed on two integer inputs (num1 and num2). The operation is specified as a char (see below for a list of operations).
