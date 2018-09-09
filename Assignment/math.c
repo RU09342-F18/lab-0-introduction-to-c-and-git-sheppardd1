@@ -53,7 +53,7 @@ int divide(int x, int y){
 	//check for division by 0
 	//if true, return 0
 	if(y == 0)	
-		return;
+		return 0;
 
 	//else return x/y:
 	return x / y;
