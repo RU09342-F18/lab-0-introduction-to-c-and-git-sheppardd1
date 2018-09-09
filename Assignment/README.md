@@ -18,7 +18,7 @@ Bitwise operations are done with the binary form of the integer, even though the
 * AND: &
 * OR: |
 * XOR: ^
-* Invert: ~
+* Invert: ~  
 Note: the invert function only returns the inverted form of the first number (num1). A second number (num2) must still be given even though it is not used.
 ## Limitations:
 1. If division by 0 ('/' or '%') is attempted, the program ends (via an assertion). If desired, lines 56, 57, 68, and 69 can be uncommented and lines 53 and 66 can be commented to cause the function to return 0 when dividing by 0 instead of ending the program.
