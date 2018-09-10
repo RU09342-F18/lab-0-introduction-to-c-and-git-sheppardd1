@@ -11,8 +11,8 @@
 #include <assert.h>
 
 
-int divide(int, int);
-int modulus(int, int);
+int divide(int, int); //prototype for division function
+int modulus(int, int);//prototype for modulus function
 
 
 
@@ -47,6 +47,10 @@ int math(int num1, int num2, char Operator)
 	
 }
 
+//Divide function:
+//Inputs: 2 ints - numerator and denominator
+//Outputs: answer of division between 1st and 2nd input (as a int)
+//Throws an assertion if denominator is 0
 int divide(int numerator, int denominator){
 
 	//check for division by 0
@@ -60,6 +64,11 @@ int divide(int numerator, int denominator){
 	return numerator / denominator;
 };
 
+
+//Modulus function:
+//Inputs: 2 ints - numerator and denominator
+//Outputs: answer is the remainder of division between 1st and 2nd input (as a int)
+//Throws an assertion if denominator is 0
 int modulus(int numerator, int denominator){
 
 	//check for division by 0
