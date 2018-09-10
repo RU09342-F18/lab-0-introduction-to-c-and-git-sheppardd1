@@ -47,28 +47,28 @@ int math(int num1, int num2, char Operator)
 	
 }
 
-int divide(int x, int y){
+int divide(int numerator, int denominator){
 
 	//check for division by 0
-	assert(y != 0);
+	assert(denominator != 0);
 
 //Uncomment the following 2 lines to return 0 when trying to divide by 0 (instead of stopping the program):
 //	if(y == 0)	
 //		return 0;
 
 	//else return x/y:
-	return x / y;
+	return numerator / denominator;
 };
 
-int modulus(int x, int y){
+int modulus(int numerator, int denominator){
 
 	//check for division by 0
-	assert(y != 0);
+	assert(denominator != 0);
 
 //Uncomment the following 2 lines to return 0 when trying to divide by 0 (instead of stopping the program):
 //	if(y==0)	
 //		return 0;
 
 	//else return x%y:
-	return x % y;
+	return numerator % denominator;
 };
