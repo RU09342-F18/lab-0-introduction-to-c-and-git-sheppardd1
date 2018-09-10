@@ -5,7 +5,7 @@
 	Purpose: defines a math funciton with 2 inputs that can handle the following operations:
 		+, -, *, /, Shift Left, Shift Right, AND, OR , XOR, Invert
 
-	Note: Dividing by 0 is not allowed; num1 cannot be set to 0 when using '/' or '%', else program will terminate.
+	Note: Dividing by 0 is not allowed; num2 cannot be set to 0 when using '/' or '%', else program will terminate.
 */
 
 #include <assert.h>
