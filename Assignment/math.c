@@ -1,7 +1,7 @@
 /*
 	David Sheppard
 	Created: 8 September 2018
-	Last Modified: 9 September 2018
+	Last Modified: 10 September 2018 (updated naming schemes for some variables)
 	Purpose: defines a math funciton with 2 inputs that can handle the following operations:
 		+, -, *, /, Shift Left, Shift Right, AND, OR , XOR, Invert
 
